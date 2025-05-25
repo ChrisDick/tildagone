@@ -28,7 +28,7 @@ author = "ChrisDick"
 license = "MIT"
 
 # URL to the repository of your app.
-url = "https://www.github.com/chrisdick/tildagone"
+url = "https://www.github.com/ChrisDick/tildagone"
 
 # Description of your app.  Maximum 140 characters!
 description = "Test background app."
@@ -37,4 +37,4 @@ description = "Test background app."
 # increased, we interpret this as a new version being released.
 #
 # Version number must be an integer!
-version = "1.0.0"
+version = "1.0.1"
