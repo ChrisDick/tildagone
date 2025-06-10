@@ -11,8 +11,9 @@ class TildaGone:
 
     def draw(self, ctx):
         clear_background(ctx)
+        ctx.save()
         ctx.font_size = self.fade
         ctx.rgb(*(0.5, 0.5, 1.0)).move_to(0-(self.fade/4), 0 + (self.fade /4)).text("~")
-
+        ctx.restore()
 
 __Background__ = TildaGone
